@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<topic name = "Madalina">
+  <category>
+      <pattern>*</pattern>
+      <template>
+       <random>
+        <li>Ce categorii de filme iti plac?</li>
+        <li>La ce cinema te duci cel mai des?</li>
+        </random>
+        </template>
+  </category>   
+
+  <category>
+      <pattern>cinema city</pattern>
+      <template>
+          Fain! In Constanta sunt 2 de acest fel 
+      </template>
+  </category>
+  <category>
+      <pattern>comedie</pattern>
+      <template>
+          Super! Iti recomand sa vezi The The BadMan
+      </template>
+  </category>
+  <category>
+      <pattern>actiune</pattern>
+      <template>
+          Ooo! Neaparat trebuie sa vezi Uncharted si Batman (2022)
+      </template>
+  </category>
+  <category>
+      <pattern>horror</pattern>
+      <template>
+          Iti recomand sa vezi Seria Scream
+      </template>
+  </category>
+  <category>
+      <pattern>thriller</pattern>
+      <template>
+          Trebuie sa vezi Aleea Groazei
+      </template>
+  </category>
+    <category>
+      <pattern>ce genuri de filme stii</pattern>
+      <template>
+          Pot sa iti recomand filme din categoriile: Comedie,Actiune,Thriller,Horror.
+      </template>
+  </category>
+</topic>
+</aiml>
